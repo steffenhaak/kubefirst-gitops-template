@@ -8,7 +8,6 @@ module "kbot" {
   first_name        = "K"
   github_username   = "<GITHUB_USER>"
   last_name         = "Bot"
-  team_id           = data.github_team.admins.id
   initial_password  = var.initial_password
   username          = "kbot"
   user_disabled     = false

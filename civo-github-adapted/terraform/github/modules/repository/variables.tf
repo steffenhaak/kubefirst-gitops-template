@@ -59,13 +59,6 @@ variable "visibility" {
   default = "private"
 }
 
-variable "team_developers_id" {
-  type = string
-}
-variable "team_admins_id" {
-  type = string
-}
-
 variable "topics" {
   type    = list(string)
   default = []

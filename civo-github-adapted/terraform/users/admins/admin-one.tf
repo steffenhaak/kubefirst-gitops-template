@@ -10,7 +10,6 @@
 #   first_name              = "Admin"
 #   github_username         = "admin-one-github-username"
 #   last_name               = "One"
-#   team_id                 = data.github_team.admins.id
 #   username                = "aone"
 #   user_disabled           = false
 #   userpass_accessor       = data.vault_auth_backend.userpass.accessor
